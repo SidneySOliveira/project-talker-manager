@@ -44,7 +44,7 @@ O projeto inglobou os seguintes requisitos:
   []
 ```
  
-## 2 - Crie o endpoint GET `/talker/:id`
+## 2 - Criar o endpoint GET `/talker/:id`
 
  - A requisição deve retornar o status 200 e uma pessoa palestrante com base no id da rota. Por exemplo, ao fazer uma requisição /talker/1, a resposta deve ser:
 
@@ -65,7 +65,7 @@ O projeto inglobou os seguintes requisitos:
   }
 ```
 
-## 3 - Crie o endpoint POST `/login`
+## 3 - Criar o endpoint POST `/login`
 
 O endpoint deverá receber no corpo da requisição os campos `email` e `password` e retornar um token aleatório de 16 caracteres. Este token será utilizado pelas requisições dos próximos requisitos do projeto.
 
@@ -78,7 +78,7 @@ O endpoint deverá receber no corpo da requisição os campos `email` e `passwor
   }
 ```
 
-## 4 - Adicione as validações para o endpoint `/login`
+## 4 - Adicionar as validações para o endpoint `/login`
 
 Os campos recebidos pela requisição devem ser validados e, caso os valores sejam inválidos, o endpoint deve retornar o código de `status 400` com a respectiva mensagem de erro ao invés do token.
 
@@ -89,12 +89,12 @@ Os campos recebidos pela requisição devem ser validados e, caso os valores sej
   - o campo `password` é obrigatório;
   - o campo `password` deve ter pelo menos 6 caracteres.
 
-## 5 - Crie o endpoint POST `/talker`
+## 5 - Criar o endpoint POST `/talker`
 
-## 6 - Crie o endpoint PUT `/talker/:id`
+## 6 - Criar o endpoint PUT `/talker/:id`
 
-## 7 - Crie o endpoint DELETE `/talker/:id`
+## 7 - Criar o endpoint DELETE `/talker/:id`
   
-## 8 - Crie o endpoint GET `/talker/search?q=searchTerm`
+## 8 - Criar o endpoint GET `/talker/search?q=searchTerm`
 
 O docker-compose já veio configurado como padronização para a correção deste projeto pela TRYBE, o projeto de criação e configuração de um docker-compose foi realizado por mim em um projeto anterior.
